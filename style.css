@@ -6,8 +6,10 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
-    
+    align-items: center;
+    justify-content: space-around;
     flex: auto;
-    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    
 }
