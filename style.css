@@ -1,28 +1,24 @@
 * {
-    box-sizing: border-box;
-
-}
-
-
-body{
-    background-color: whitesmoke;
+    background-color: black;
+    color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
 }
 
 .main-header {
-    display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-    background-color: #000000;
-    color: #e5e5e5;
-    padding: 30px;
-    font-size: 70px;
-    margin: 5px;
+    display: inline-flex
+    justify-content: space-evenly;
+    margin: 2%;
+    padding: 5px;
+    border: 50px;
+    
 }
 
-nav li {
-    display: inline;
-    margin-right: 10px;
-    color: #e5e5e5;
-    font-size: 35px;
+.nav-button {
+    display: block;
+    
+}
+
+section {
+    
 }
