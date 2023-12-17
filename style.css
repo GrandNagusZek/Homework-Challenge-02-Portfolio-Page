@@ -12,6 +12,58 @@
     margin-top: 10px;
     margin-right: 100px;
     margin-left: 100px;
-    font-size: 35px;
-    
+    margin-bottom: 100px;
+    font-size: 35px;   
+}
+
+#about h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+#about p {
+    display: block;
+    justify-content: ;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#portfolio h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+#portfolio p {
+    display: block;
+    justify-content: ;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+#contact h2 {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+#contact p {
+    display: block;
+    justify-content: ;
+    font-size: 30px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+main {
+    display: flexbox;
 }
