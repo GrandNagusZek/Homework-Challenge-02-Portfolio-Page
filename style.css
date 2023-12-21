@@ -13,7 +13,7 @@
   
   header section {
     flex: 1 0 45%;
-    font-size: 300%;
+    font-size: 35px;
   }
   
   header h1 {
@@ -32,7 +32,7 @@
     list-style: none;
     justify-content: space-around;
     color: #caf0f8;
-    font-size: 200%;
+    font-size: 30px;
   }
   
   
@@ -65,7 +65,8 @@
     border: 1px solid red;
     text-align: center;
     padding-right: 1%;
-    background-color: #00b4d8;
+   background-color: #0077b6;
+   font-size: 30px;
   }
   
   .column-right {
@@ -74,6 +75,7 @@
     padding-left: 1%;
     color: #caf0f8;
     background-color: #0077b6;
+    font-size: 30px;
   
   }
   
