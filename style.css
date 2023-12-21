@@ -76,12 +76,14 @@
     color: #caf0f8;
     background-color: #0077b6;
     font-size: 30px;
-  
+    line-height: 1.3;  
   }
   
   #big-img {
     background-image: none;
     position: relative;
+    max-width: 75%;
+    margin-bottom: 10px;
   }
   
   #big-img img {
@@ -95,6 +97,8 @@
     position: absolute;
     z-index: 2;
     top: 90%;
+    margin-top: 340px;
+    color: black;
   }
   
   #small-img {
