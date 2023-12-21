@@ -6,26 +6,24 @@
   header {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
     align-items: center;
     height: 10vh;
+    background-color: #03045e;
   }
   
   header section {
     flex: 1 0 45%;
-    border: 1px solid purple;
-  
+    font-size: 250%;
   }
   
   header h1 {
     width: 30%;
-    background-color: green;
     margin-left: 5%;
+    color: #caf0f8;
   }
   
   header nav {
-    flex: 1 0 45%;
-    border: 1px solid purple;
+    flex: 1 0 45%;    
   }
   
   header ul {
@@ -33,6 +31,8 @@
     flex-direction: row;
     list-style: none;
     justify-content: space-around;
+    color: #caf0f8;
+    font-size: 250%;
   }
   
   
