@@ -1,47 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Iliyaas' Portfolio Page</title>
-    <link rel="stylesheet" type="text/css" href="reset.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav class="nav">
-        <a href="#About">About</a>
-        <a href="#Work">Portfolio</a>
-        <a href="#Contact">Contact</a>
-    </nav>
-    <div class="hero-section">
-        <h1>Iliyaas Mallard</h1>
-        <p>Web Developer and Designer</p>
-    </div>
-    <main class="main">
-        <section>
-            <h2>About</h2>
-            <img src="assets/IMG_6079 2.JPG" style="width: 300px; height: 300px;">
-            <p>Hailing from Jersey City, New Jersey, I earned a bachelor's degree in Liberal Arts with a minor in Asian Studies. A recipient of a full scholarship, I pursued my passion for linguistics and the Chinese language at Zhejiang University in China, obtaining a master's degree.
-    
-                Embracing the challenges of living abroad, I taught English in China for several years. The experience fueled my entrepreneurial spirit, leading me to establish an English training school. However, the onset of the Covid-19 pandemic prompted a return to the United States, marking a pivotal moment in my life.
-                
-                Back in the U.S., I faced a crossroads and decided to shift my career towards full-stack web development. Motivated by a passion for coding and a vision for the future, I am currently navigating the dynamic world of web development in South Florida.
-                
-                Balancing my aspirations with family life, I take pride in being a loving spouse and a devoted parent to two wonderful children. Their unwavering support propels me forward as I strive to master diverse technologies and contribute to the tech community.
-                
-                My journey, from academic pursuits in China to entrepreneurial ventures and a career transition, reflects a commitment to growth, adaptability, and the pursuit of excellence. As I navigate the ever-evolving chapters of my life, I remain steadfast in my belief that education, innovation, and community building are the cornerstones of a fulfilling and impactful existence.</p>
-        </section>
-        
-        <section>
-            <h2>Work</h2>
-            <p>This is the portfolio section. Projects coming soon!</p>
-        </section>
-        <section>
-            <h2>Contact</h2>
-            <p>This is the contact section</p>
-        </section>
-    </main>
-</body>
+    <header>
+      <section>   <h1>Phil Loy </h1></section>  
 
+         <nav>
+            <ul>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="#work">Work</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+         </nav>
+    </header>
+     <figure>
+
+     </figure>
+
+     <main>
+           <section id="about" class="row">
+                  <section class="column-left"> <h2>About Me</h2></section>
+                  <section class="column-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus obcaecati dolore necessitatibus blanditiis tempore consequatur quam eum! Veritatis, quasi. Nisi, iure! Optio omnis iusto, facere eius tempore autem qui aliquam!</p>
+                  </section>
+           </section>
+           <section id="work" class="row">
+               <section class="column-left"><h2>Work</h2></section>
+               <section class="column-right">
+                   <figure id="big-img">
+                      <a href="https://coolors.co/palettes/trending">  <img src="https://placehold.co/800x200" alt=""></a> 
+                          <h2>big image</h2> 
+                   </figure>
+                   <figure id="small-img">
+                        <figcaption>
+                            <img src="https://placehold.co/400x400" alt="">
+                            <h2>small image</h2>
+                        </figcaption>
+                        <figcaption>
+                            <img src="https://placehold.co/400x400" alt="">
+                            <h2>small image</h2>
+                        </figcaption>
+
+                        <figcaption>
+                            <img src="https://placehold.co/400x400" alt="">
+                            <h2>small image</h2>
+                        </figcaption>
+                        <figcaption>
+                            <img src="https://placehold.co/400x400" alt="">
+                            <h2>small image</h2>
+                        </figcaption>
+
+                   </figure>
+               </section>
+           </section>
+     </main>
+
+     <footer>
+        <section id="contact" class="row">
+            <section class="column-left"><h2>Contact</h2></section>
+            <section class="column-right">
+                  <ul>
+                    <li><a href="#">111-999-9999</a></li>
+                    <li><a href="#">email</a></li>
+                    <li><a href="#">linkedIn</a></li>
+                    <li><a href="#">Github</a></li>
+                  </ul>
+            </section>
+        </section>
+     </footer>
+</body>
 </html>
