@@ -47,5 +47,7 @@ email: webdev53@sudomail.com
 
 phone: +1 (646) 661-3768
 
-Link to my GitHub profile:
+URL link to my GitHub profile:
+
+https://github.com/GrandNagusZek
 
